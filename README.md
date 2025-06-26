@@ -1,26 +1,19 @@
 #  Image-based Layout Generation with LLM for Advertising Poster
-SK Telecom에서 주최하는 AI Fellowship 6기에서 진행한 프로젝트 연구
+- SK Telecom에서 주최하는 AI Fellowship 6기에서 진행한 연구 프로젝트
+- 2025년 런칭 예정인 SKT 'AI 디자이너' 서비스의 PoC 진행 및 베이스 모델 개발
 
 ## 프로젝트 개요
- - 
-SKT ‘AI 디자이너’ 서비스에 적용될 포스터 자동 생성 모델의 PoC를 위한 프로젝트입니다.  
-입력된 상품 이미지와 텍스트를 바탕으로 **디자인된 광고 포스터를 자동으로 생성**하는 알고리즘을 개발하였습니다.
+ - **진행 기간**: 2024.05 ~ 2024.10 (6 months)
+ - **팀원**: 총 3인
+ - **Task**: VLM, Layout Generation, Automatic Poster Generation
+ - **기술 스택**: Deepspeed, PEFT, Pytorch, Transformers
 
-## 프로젝트 개요
-
-- **진행 기간**: 2024.05 ~ 2024.10 (6개월)
-- **프로젝트 형태**: SKT AI Fellowship 과제 (총 3인)
-- **도입 예정 서비스**: SKT ‘AI 디자이너’
-- **주요 분야**: Automatic Poster Generation, Multimodal LLM
-- **사용 기술**: PyTorch, Huggingface, Deepspeed, Codellama 7B, DINOv2, HTML Template
+## 프로젝트 목표
+ 1. 사용자가 입력한 *상품 이미지*와 *텍스트*를 바탕으로 **디자인된 광고 포스터 생성**
+ 2. 포스터의 배경, 레이아웃 배치, 텍스트 디자인(개행, 키워드 강조), 이미지 및 텍스트 크기 결정을 모두 자동화
 
 ---
 
-## 목표
-
-- 입력된 **상품 이미지 + 텍스트**를 기반으로 한 광고 포스터 생성
-- 텍스트 레이아웃, 색상, 배경, 키워드 강조, 이미지 크기 등을 **모델이 자동으로 결정**
-- Codellama의 HTML 지식을 활용해 HTML 기반 포스터 레이아웃 생성
 
 ---
 
@@ -36,13 +29,6 @@ SKT ‘AI 디자이너’ 서비스에 적용될 포스터 자동 생성 모델�
 
 ---
 
-## 기술 스택
-
-- `Deepspeed`: ZeRO-3로 학습 최적화
-- `PEFT`: Parameter-efficient fine-tuning
-- `Python`, `PyTorch`, `Huggingface Transformers`
-
----
 
 ## 성과
 
