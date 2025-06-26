@@ -38,11 +38,8 @@ SKT ‘AI 디자이너’ 서비스에 적용될 포스터 자동 생성 모델�
 
 ## 기술 스택
 
-- `Codellama 7B`: 텍스트-기반 HTML 구조 생성
-- `DINOv2`: 이미지 feature 추출
 - `Deepspeed`: ZeRO-3로 학습 최적화
 - `PEFT`: Parameter-efficient fine-tuning
-- `HTML`: 출력 포맷
 - `Python`, `PyTorch`, `Huggingface Transformers`
 
 ---
