@@ -1,7 +1,5 @@
 # SKT-AI-Fellowship-6th
-Image-based Layout Generation with LLM for Advertising Poster
-
-# LLM 기반 광고 이미지 레이아웃 디자인 자동화
+# Image-based Layout Generation with LLM for Advertising Poster
 
 SKT ‘AI 디자이너’ 서비스에 적용될 포스터 자동 생성 모델의 PoC를 위한 프로젝트입니다.  
 입력된 상품 이미지와 텍스트를 바탕으로 **디자인된 광고 포스터를 자동으로 생성**하는 알고리즘을 개발하였습니다.
