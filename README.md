@@ -1,4 +1,6 @@
 # SKT-AI-Fellowship-6th
+SK Telecom에서 주최하는 AI Fellowship 6기 프로젝트 연구
+
 ## Image-based Layout Generation with LLM for Advertising Poster
 
 SKT ‘AI 디자이너’ 서비스에 적용될 포스터 자동 생성 모델의 PoC를 위한 프로젝트입니다.  
